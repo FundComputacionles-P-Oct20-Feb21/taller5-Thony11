@@ -1,0 +1,43 @@
+1.  Inicio
+
+2. diasHosp, d[0,n]
+3. precDia, d[0,n]
+4. subtotal, d[0,n]
+5. valorTotal, d[0,n]
+6. edad, i[0,n]
+7. descuento, d[0,n]
+8. porcentaje, d[0,n]
+
+9. porcentaje <-- 20
+
+10. Escribir "Ingrese el numero de dias a hospedar"
+11. Lea diaHosp
+
+12. Escribir "Ingrese el precio diario"
+13. Lea precDia
+
+14. subtotal = diaHosp * precDia
+
+15. Si diaHosp < 5 entonces
+16. porcentaje  <----  10%
+17. Fin si
+
+18. Si diaHops < 10
+19. porcentaje  <----  15%
+
+20. Fin si
+
+21. Si diaHops < 15
+22. porcentaje  <----  20%
+
+23. Fin si
+
+24. descuento <-- (porcentaje * subtotalTotal)/100
+25. valorTotal <-- subTotal- descuento
+ 
+
+27. Escribir "El subtotal es: " + subTotal
+28. Escribir "El descuento es: " + descuento
+29. Escribir "El Total a pagar es: " + valorTotal
+
+30. Fin

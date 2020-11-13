@@ -1,0 +1,21 @@
+Inicio
+pedido, i[0,n]
+unidades, i[0,n]
+porcentaje, d[0,n]
+descuento, d[0,n]
+
+porcentaje <-- 15
+
+Escribir "Ingrese el nombre del articulo"
+Leer pedido
+Escribir "Ingrese la cantidad que requiere"
+Leer unidades
+valorTotal = pedido + unidades
+Si unidades > 50 entonces
+Escribir "La cantidad de unidades tiene un desceunto"
+desuento <-- (porcentaje * valorTotal)/100
+valorTotal <-- valorTotal - descuento
+Fin si
+Escribir "La cantidad de unidad es: " + valorTotal
+Fin
+

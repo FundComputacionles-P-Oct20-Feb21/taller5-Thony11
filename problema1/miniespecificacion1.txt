@@ -1,0 +1,20 @@
+1. Inicio
+2. nombre, x
+3. kilo_hora, i[0,n]
+4. kilo_consu, i[0,n]
+5. edad, i[o,n]
+6. Escribir "Ingresar el nombre del usuario
+7. Leer nombre
+8. Escribir "Ingresar el valor de costo por kilovatio/hora"
+9. Leer kilo_hora
+10. Escribir "Ingresar cuantos kilovatios consumio en el mes"
+11. Leer kilo_consu
+12. Escribir "Ingresar edad"
+13. Leer edad
+14. Si edad >= 65 entonces
+15. Escribir "La edad ingresada tiene un descuento del 10%"
+16. De lo contrario
+17. Escribir "Su edad ingresada no tiene descuento"
+18. Fin si
+19. Escribir " El valor a cancelar de la planilla de luz es :" + kilo_hora + kilo_consu   
+20. Fin
